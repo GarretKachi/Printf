@@ -1,4 +1,5 @@
 #include "main.h"
+int other_format_specifiers(char specifier, va_list args);
 /**
  * other_format_specifiers - checks for other specifiers
  * @specifier: specifier to check for
