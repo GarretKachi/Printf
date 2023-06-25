@@ -7,20 +7,20 @@
  */
 int process_format_specifier(char specifier, va_list args)
 {
-	int j, ch, printed_chars 0;
+	int j, ch, printed_chars = 0;
 	char *str;
 
 	switch (specifier)
 	{
 		case 'c':
 		{
-			ch = va_args(args, int);
+			ch = va_arg(args, int);
 			_putchar(ch);
 			return (1);
 		}
 		case 's':
 		{
-			str = va_args(args, char*);
+			str = va_arg(args, char*);
 			for (j = 0; str[j] != '\0'; ++j)
 			{
 				_putchar(str[j]);
