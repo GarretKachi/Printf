@@ -10,14 +10,14 @@ int other_format_specifiers(char specifier, va_list args)
 {
 	int printed_chars = 0;
 	unsigned int num;
-	void *ptr;
+	void *addr;
 
 	switch (specifier)
 	{
 		case 'p':
 		{
-			ptr = va_arg(args, void*);
-			printed_chars += printf("%p", ptr);
+			addr = va_arg(args, void*);
+			printed_chars += printf("%p", addr);
 			break;
 		}
 		case 'd':
@@ -25,9 +25,16 @@ int other_format_specifiers(char specifier, va_list args)
 		{
 			num = va_arg(args, int);
 			printed_chars += printf("%d", num);
+			/*len += printed_chars*/
 			break;
 		}
 		case 'u':
+		{
+			num = va_arg(args, unsigned int);
+			printed_chars += printf("%u", num);
+			break;
+		}
+		case 'o':
 		{
 			num = va_arg(args, unsigned int);
 			printed_chars += printf("%o", num);
