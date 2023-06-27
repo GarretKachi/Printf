@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _putstr - goes through each character
- * @str: string to traverse
+ * _putstr - This goes through each character
+ * @str: The string to traverse
  * Return: values
  */
 int _putstr(const char *str)
