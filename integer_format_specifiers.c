@@ -41,9 +41,9 @@ int handle_integer_specifiers(const char *format, va_list args)
 			printed_chars = _putchar_ptr(addr);
 			break;
 		default:
-			/*_putchar('%');*/
-			/*_putchar(*format);*/
-			/*printed_chars += 1;*/
+			_putchar('%');
+			_putchar(*format);
+			printed_chars += 2;
 			break;
 	}
 
