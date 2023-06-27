@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _putchar_uint - prints unsigned integers
- * @value: unsigned integer value
+ * _putchar_uint - The prints unsigned integers
+ * @value: The unsigned integer value
  * Return: value
  */
 int _putchar_uint(unsigned int value)
