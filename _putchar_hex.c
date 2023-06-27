@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _putchar_hex - prints hexadecimal values
- * @value: values to be printed
- * @uppercase: order of printing
+ * _putchar_hex - This prints hexadecimal values
+ * @value: The values to be printed
+ * @uppercase: The order of printing
  * Return: values
  */
 int _putchar_hex(unsigned int value, int uppercase)
