@@ -1,9 +1,9 @@
 #include "main.h"
 int handle_integer_specifiers(const char *format, va_list args);
 /**
- * handle_integer_specifiers - handles specifiers for integers and pointers
- * @format: specifier format
- * @args: argument list
+ * handle_integer_specifiers - This handles specifiers for integers and pointers
+ * @format: The specifier format
+ * @args: The argument list
  * Return: specifier
  */
 int handle_integer_specifiers(const char *format, va_list args)
