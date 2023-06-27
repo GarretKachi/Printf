@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _putchar_oct - prints octal numbers
+ * _putchar_oct - This prints octal numbers
  * @value: value
- * Return: value
+ * Return: value as is
  */
 int _putchar_oct(unsigned int value)
 {
