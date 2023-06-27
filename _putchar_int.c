@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _putchar_int - prints integer values
- * @value: integer value
+ * _putchar_int - This prints integer values
+ * @value: The integer value
  * Return: value
  */
 int _putchar_int(int value)
