@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _putchar_ptr - prints pointer values
- * @addr: pointer values
+ * _putchar_ptr - This prints pointer values
+ * @addr: The pointer values
  * Return: values
  */
 int _putchar_ptr(void *addr)
